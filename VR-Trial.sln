@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C9AEE846-510C-16D4-FC42-C806C8FE4138}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{DB275190-81AC-5F70-E695-5F094E7DE0DB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6CA3B443-E7F0-9BED-C40B-E0095CE25680}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{C9AEE846-510C-16D4-FC42-C806C8FE4138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9AEE846-510C-16D4-FC42-C806C8FE4138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9AEE846-510C-16D4-FC42-C806C8FE4138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB275190-81AC-5F70-E695-5F094E7DE0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB275190-81AC-5F70-E695-5F094E7DE0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB275190-81AC-5F70-E695-5F094E7DE0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB275190-81AC-5F70-E695-5F094E7DE0DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CA3B443-E7F0-9BED-C40B-E0095CE25680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CA3B443-E7F0-9BED-C40B-E0095CE25680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA3B443-E7F0-9BED-C40B-E0095CE25680}.Release|Any CPU.ActiveCfg = Release|Any CPU
