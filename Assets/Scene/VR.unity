@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 888216569}
   - component: {fileID: 888216568}
   - component: {fileID: 888216567}
+  - component: {fileID: 888216572}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -781,6 +782,43 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &888216572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888216565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461bc542854c10545a805b9e06fb0286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Trigger Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: d2958be0-5e48-475d-a87b-6a24c8bad4b1
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gripAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b0240283-da26-4530-ae94-35f5aa75db17
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  animator: {fileID: 1161607042}
 --- !u!1 &1120357892
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +977,11 @@ PrefabInstance:
 --- !u!4 &1161607041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+  m_PrefabInstance: {fileID: 1161607040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1161607042 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5686134208192617028, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
   m_PrefabInstance: {fileID: 1161607040}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1301155695
@@ -1364,6 +1407,7 @@ GameObject:
   - component: {fileID: 2067666726}
   - component: {fileID: 2067666725}
   - component: {fileID: 2067666724}
+  - component: {fileID: 2067666729}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -1928,6 +1972,43 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &2067666729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067666722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461bc542854c10545a805b9e06fb0286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Trigger Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e5247630-a778-4b1c-a318-69dba394caf8
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gripAnimationAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Grip Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1fc5d099-8b96-49c8-987c-b031e1b32d1d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  animator: {fileID: 2091102632}
 --- !u!1001 &2091102630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1988,5 +2069,10 @@ PrefabInstance:
 --- !u!4 &2091102631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+  m_PrefabInstance: {fileID: 2091102630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2091102632 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 109434732388006827, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
   m_PrefabInstance: {fileID: 2091102630}
   m_PrefabAsset: {fileID: 0}
