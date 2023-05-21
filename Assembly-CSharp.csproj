@@ -58,8 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\_Trial\Testing.cs" />
     <Compile Include="Assets\_Reference\URP Example\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\_Reference\URP Example\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\VRHand.cs" />
+    <Compile Include="Assets\_Reference\URP Example\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
