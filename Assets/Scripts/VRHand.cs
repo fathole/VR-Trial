@@ -5,18 +5,37 @@ using UnityEngine.InputSystem;
 
 public class VRHand : MonoBehaviour
 {
-    public InputActionProperty triggerAnimationAction;
-    public InputActionProperty gripAnimationAction;
+    public InputActionProperty activateAnimationAction;
+    public InputActionProperty selectAnimationAction;
     public Animator animator;
 
 
+    XRIDefaultInputActions inputActions;
+
+    private void Start()
+    {
+        // Action Map Trial 
+        inputActions = new XRIDefaultInputActions();
+
+        inputActions.XRILeftHandInteraction.Enable();
+        inputActions.XRILeftHandInteraction.Activate.performed += HandActivate;
+        inputActions.XRILeftHandInteraction.Select.performed += HandSelect;
+
+        inputActions.XRIRightHandInteraction.Enable();
+        inputActions.XRIRightHandInteraction.Activate.performed += HandActivate;
+        inputActions.XRIRightHandInteraction.Select.performed += HandSelect;
+
+        inputActions.TestngMap.Enable();
+        inputActions.TestngMap.Testing.performed += Testing;
+    }
+
     private void Update()
     {
-        float triggerValue = triggerAnimationAction.action.ReadValue<float>();
-        animator.SetFloat("Trigger", triggerValue);
+        float triggerValue = activateAnimationAction.action.ReadValue<float>();
+        animator.SetFloat("Activate", triggerValue);
 
-        float gripValue = gripAnimationAction.action.ReadValue<float>();
-        animator.SetFloat("Grip", triggerValue);
+        float gripValue = selectAnimationAction.action.ReadValue<float>();
+        animator.SetFloat("Select", triggerValue);
 
         //// Old Input System
         //if (Input.GetKeyDown(KeyCode.A))
@@ -24,10 +43,26 @@ public class VRHand : MonoBehaviour
         //    Debug.Log("Called");
         //}
 
-        // New Input System
-        if (Keyboard.current.aKey.wasPressedThisFrame)
-        {
-            Debug.Log("Called");
-        }
+        //// New Input System
+        //if (Keyboard.current.aKey.wasPressedThisFrame)
+        //{
+        //    Debug.Log("Called");
+        //}
+
+    }
+
+    public void HandActivate(InputAction.CallbackContext callbackContext) 
+    {
+        Debug.Log("Hand Activate");
+    }
+
+    public void HandSelect(InputAction.CallbackContext callbackContext)
+    {
+        Debug.Log("Hand Select");
+    }
+
+    public void Testing(InputAction.CallbackContext callbackContext)
+    {
+        Debug.Log("Testing");
     }
 }

@@ -794,25 +794,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461bc542854c10545a805b9e06fb0286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerAnimationAction:
+  activateAnimationAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Trigger Animation
+      m_Name: Activate Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: d2958be0-5e48-475d-a87b-6a24c8bad4b1
+      m_Id: 13156991-c339-4f19-ab0d-82cf28ccd4f0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  gripAnimationAction:
+  selectAnimationAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Grip Animation
+      m_Name: Select Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: b0240283-da26-4530-ae94-35f5aa75db17
+      m_Id: 12982fe2-0517-44bb-ba34-8f8df0b439f0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1984,25 +1984,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461bc542854c10545a805b9e06fb0286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerAnimationAction:
+  activateAnimationAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Trigger Animation
+      m_Name: Activate Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: e5247630-a778-4b1c-a318-69dba394caf8
+      m_Id: 13156991-c339-4f19-ab0d-82cf28ccd4f0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  gripAnimationAction:
+  selectAnimationAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Grip Animation
+      m_Name: Select Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 1fc5d099-8b96-49c8-987c-b031e1b32d1d
+      m_Id: 12982fe2-0517-44bb-ba34-8f8df0b439f0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []

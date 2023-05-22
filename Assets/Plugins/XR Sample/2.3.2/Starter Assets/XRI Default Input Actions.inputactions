@@ -2104,6 +2104,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "TestngMap",
+            "id": "2554e02f-dc07-4e34-9eb4-31ee17811d12",
+            "actions": [
+                {
+                    "name": "Testing",
+                    "type": "Button",
+                    "id": "7a476141-24bb-42a8-9be9-aa8d3b188401",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da981b5d-00e2-428b-809c-7cd169f83e6a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Testing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
