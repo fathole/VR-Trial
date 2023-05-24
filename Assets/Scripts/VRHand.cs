@@ -53,16 +53,16 @@ public class VRHand : MonoBehaviour
 
     public void HandActivate(InputAction.CallbackContext callbackContext) 
     {
-        Debug.Log("Hand Activate");
+        // Debug.Log("Hand Activate");
     }
 
     public void HandSelect(InputAction.CallbackContext callbackContext)
     {
-        Debug.Log("Hand Select");
+        // Debug.Log("Hand Select");
     }
 
     public void Testing(InputAction.CallbackContext callbackContext)
     {
-        Debug.Log("Testing");
+        // Debug.Log("Testing");
     }
 }
