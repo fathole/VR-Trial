@@ -35,7 +35,7 @@ public class VRHand : MonoBehaviour
         animator.SetFloat("Activate", triggerValue);
 
         float gripValue = selectAnimationAction.action.ReadValue<float>();
-        animator.SetFloat("Select", triggerValue);
+        animator.SetFloat("Select", gripValue);
 
         //// Old Input System
         //if (Input.GetKeyDown(KeyCode.A))
