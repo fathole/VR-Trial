@@ -18,7 +18,7 @@ namespace GameManager
         [Header("Animator")]
         [SerializeField] private Animator leftHandAnimator;
         [SerializeField] private Animator rightHandAnimator;
-       
+
         #endregion
 
         private void Update()
