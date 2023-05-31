@@ -110,7 +110,7 @@
     <Compile Include="Assets\Scripts\GameScene02_Home\ViewElement\UIPopup\LoadGamePopup\ODESaveFileScrollView.cs" />
     <Compile Include="Assets\Scripts\GameManager\Manager\ControllerManager\TextManager\TextManager.cs" />
     <Compile Include="Assets\Scripts\GameManager\ViewElement\UIPopup\MiddlePopup\UDEContent.cs" />
-    <Compile Include="Assets\XROriginManager.cs" />
+    <Compile Include="Assets\Scripts\GameManager\Manager\ControllerManager\XROriginManager.cs" />
     <Compile Include="Assets\Scripts\GameManager\DataClass\SortingLayerOptionData.cs" />
     <Compile Include="Assets\Scripts\GameManager\ViewElement\UIPopup\SmallPopup\ODESecondaryButton.cs" />
     <Compile Include="Assets\Scripts\GameScene02_Home\ViewElement\UIPopup\LoadGamePopup\OSECrossButton.cs" />
